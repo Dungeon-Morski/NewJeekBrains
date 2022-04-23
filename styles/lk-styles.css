@@ -1,0 +1,164 @@
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\000032}}
+::-webkit-scrollbar-thumb {
+  background-color: rgba(158, 143, 143, 0.8);
+  border-radius: 3px;
+  border: 1px solid transparent; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\000038}}
+::-webkit-scrollbar-track {
+  background: #eef0ef;
+  border-radius: 3px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\0000313}}
+::-webkit-scrollbar {
+  width: 6px;
+  height: 4px; }
+
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\0000321}}
+body .header .avatar img {
+  height: 30px !important;
+  width: 30px !important;
+  border-radius: 50%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\0000327}}
+body .header .mylerning {
+  background-color: #eff0f5;
+  color: #000;
+  padding: 8px 16px 10px;
+  border-radius: 10px;
+  font-weight: 600;
+  cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\0000334}}
+  body .header .mylerning:hover {
+    background-color: #dae1e6; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\0000341}}
+body main .direction__block h1 {
+  font-size: 38px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\0000344}}
+body main .direction__block .direction__description {
+  font-size: 24px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\0000347}}
+body main .direction__block .direction__info {
+  position: absolute;
+  bottom: 5%;
+  left: 5%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\0000351}}
+  body main .direction__block .direction__info p {
+    color: white; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\0000354}}
+  body main .direction__block .direction__info .direction__title {
+    font-size: 24px; }
+@media screen and (max-width: 768px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\0000360}}
+  body main .direction__cards {
+    display: grid;
+    position: relative;
+    grid-template-columns: repeat(8, 200px) !important;
+    grid-template-rows: repeat(1, 200px) !important;
+    overflow-x: scroll;
+    -webkit-box-pack: start !important;
+        -ms-flex-pack: start !important;
+            justify-content: flex-start !important;
+    padding-bottom: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\0000368}}
+    body main .direction__cards .direction__card {
+      min-width: 200px !important;
+      min-height: 200px !important; } }
+@media screen and (max-width: 1024px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\0000376}}
+  body main .direction__block h1 {
+    font-size: 22px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\0000379}}
+  body main .direction__block .direction__description {
+    font-size: 18px; } }
+@media screen and (max-width: 1280px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\0000385}}
+  body main .direction__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(auto, 200px));
+    grid-template-rows: repeat(auto-fill, minmax(auto, 200px));
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    grid-auto-flow: dense; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\0000391}}
+    body main .direction__cards .direction__card {
+      -webkit-box-shadow: 0px -51px 46px 13px rgba(0, 0, 0, 0.64) inset;
+              box-shadow: 0px -51px 46px 13px rgba(0, 0, 0, 0.64) inset;
+      position: relative;
+      max-width: 200px !important;
+      min-height: 200px !important;
+      width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\0000397}}
+      body main .direction__cards .direction__card .direction__title {
+        font-size: 19px; } }
+@media screen and (min-width: 1280px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\00003104}}
+  body main .direction__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(auto, 300px));
+    grid-template-rows: repeat(auto-fill, minmax(auto, 300px));
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin: 0 auto;
+    grid-auto-flow: dense; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\00003111}}
+    body main .direction__cards .direction__card {
+      -webkit-box-shadow: 0px -51px 46px 13px rgba(0, 0, 0, 0.64) inset;
+              box-shadow: 0px -51px 46px 13px rgba(0, 0, 0, 0.64) inset;
+      position: relative;
+      max-width: 400px;
+      min-height: 300px;
+      width: 100%; } }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\00003121}}
+body main .direction__cards {
+  grid-gap: 20px; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\00003123}}
+  body main .direction__cards .direction__card {
+    -webkit-box-shadow: 0px -51px 46px 13px rgba(0, 0, 0, 0.64) inset;
+            box-shadow: 0px -51px 46px 13px rgba(0, 0, 0, 0.64) inset;
+    position: relative;
+    max-width: 400px;
+    min-height: 300px;
+    width: 100%;
+    background-color: silver;
+    border-radius: 20px;
+    opacity: 1;
+    cursor: pointer; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\00003133}}
+    body main .direction__cards .direction__card:hover {
+      opacity: .9; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\00003138}}
+body main .card1 {
+  background: url("../images/LK/programming-category.jpg");
+  background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\00003142}}
+body main .card2 {
+  background: url("../images/LK/design-category.jpg");
+  background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\00003146}}
+body main .card3 {
+  background: url("../images/LK/marketing-category.jpg");
+  background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\00003150}}
+body main .card4 {
+  background: url("../images/LK/management-category.jpg");
+  background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\00003154}}
+body main .card5 {
+  background: url("../images/LK/analytic-category.jpg");
+  background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\00003158}}
+body main .card6 {
+  background: url("../images/LK/game-dev-category.jpg");
+  background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\00003162}}
+body main .card7 {
+  background: url("../images/LK/creative-category.jpg");
+  background-size: cover; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/lk-styles\.scss}line{font-family:\00003166}}
+body main .card8 {
+  background: url("../images/LK/business-category.jpg");
+  background-size: cover; }
+
+/*# sourceMappingURL=lk-styles.css.map */

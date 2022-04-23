@@ -1,0 +1,97 @@
+.pr_title {
+	font-size: 48px;
+	line-height: 1em;
+}
+
+.pr__search {
+	input {
+		outline: none;
+		border: none;
+		padding: 10px;
+		width: 100%;
+		background-color: #eff0f5;
+		border-radius: 5px;
+	}
+	button {
+		background-color: #5466c2;
+		padding: 10px;
+		width: 200px;
+		border-radius: 0 5px 5px 0;
+		color: white;
+	}
+}
+
+.training__block {
+	.training__filter {
+		max-width: max-content;
+		min-width: 250px;
+		width: 100%;
+		.filter {
+			border-bottom: 1px solid silver;
+			padding-bottom: 16px;
+		}
+		.s {
+			.lvl-text {
+				font-size: 16px;
+			}
+			.custom-checkbox+label::before {
+				margin-top: 0px;
+			}
+		}
+		.filter__title {
+			font-size: 18px;
+		}
+	}
+	.training__programs {
+		width: 100%;
+		display: grid;
+		grid-template-columns: repeat(2, 1fr) ;
+		grid-template-rows: 1fr 1fr;
+		
+		grid-auto-flow: dense;
+		gap: 20px;
+	}
+    @media screen and (max-width:768px) {
+        .training__programs {
+            grid-template-columns: repeat(1, 1fr) ;
+        }
+    }
+	.programs__card {
+		box-shadow: 6px 6px 20px 4px rgba(55, 84, 170, 0.1);
+		// width: 100%;
+		padding: 20px;
+		min-width: 350px;
+       
+		cursor: pointer;
+		border-radius: 12px;
+		&:hover {
+			box-shadow: 8px 8px 25px 8px rgba(55, 84, 170, 0.1);
+		}
+		h3 {
+			font-size: 22px !important;
+		}
+		.card-desc {
+			color: #1f222e !important;
+			font-size: 14px;
+		}
+		.font-bold {
+			font-size: 14px;
+		}
+		.t {
+			.card_t {
+				font-size: 12px;
+				.fakultet {
+					background-color: #eff0f5;
+				}
+				.whitespace-nowrap {
+					background-color: #edfcf7;
+					color: #10af7c;
+				}
+				p {
+					padding: 6px 8px;
+					border-radius: 4px;
+				}
+			}
+		}
+	}
+}

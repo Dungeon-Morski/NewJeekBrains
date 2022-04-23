@@ -1,0 +1,117 @@
+$main-black:#19191A;
+$meat-white:rgb(250, 250, 250);
+$meat-text:rgb(80, 79, 79);
+$main-violet:#6654D9;
+.main-violet {
+	color: $main-violet;
+}
+
+main {
+    .training__block {
+        .helper__block    {
+            background-color: #f4f5fa;
+            padding:10px 0;
+        }
+        .info__block     {
+            p{
+                color:rgba(80,102,123,.5);
+            }
+        }
+        .gu__cards {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: 1fr;
+            justify-content: center;
+           
+        gap:20px;
+        grid-auto-flow: dense;
+        .gu__card {
+            background-image: linear-gradient(153.43deg,#4d3bf9,#646b5c 83.33%);
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            gap:10px;
+            height: 190px;
+            padding:20px;
+            border-radius: 5px;
+            opacity: .9;
+            cursor: pointer;
+            &:hover {
+                opacity: 1;
+            }
+            img {
+                width: 50px;
+            }
+            .card__title {
+                font-size: 24px;
+                line-height: 1em;
+            }
+            p {
+                color:white;
+                white-space: nowrap;
+            }
+        }
+        }
+        @media screen and (max-width:1200px){
+            .gu__cards {
+                grid-template-columns: repeat(2, 1fr);
+            grid-template-rows: 1fr;
+            .gu__card {
+                height: 150px !important;
+                .card__title {
+                    font-size: 20px;
+                  
+                }
+            }
+        }
+        }
+        @media screen and (max-width:768px){
+            .gu__cards {
+                grid-template-columns: repeat(1, 1fr);
+            grid-template-rows: 1fr;
+            .gu__card {
+                height: 150px !important;
+                .card__title {
+                    font-size: 20px;
+                  
+                }
+            }
+        } 
+        }
+         .training__helper {
+           
+             .helper-img{
+                 height: 100px;
+             }
+             span {
+                 background-color: white;
+                 padding: 8px 16px;
+               
+                 border-radius: 20px;
+             }
+             form {
+                 input {
+                     padding:8px;
+                    
+                 }
+                 
+                 button {
+                     background-color: $main-violet;
+                     padding:8px 30px;
+                     color:white;
+                     white-space: nowrap;
+                 }
+             }
+             @media screen and (max-width:1024px) {
+                form,
+                input {
+                    width: 100%;
+                   
+                }
+            }
+         }
+
+
+        }
+    }
