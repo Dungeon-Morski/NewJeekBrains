@@ -1,15 +1,14 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/mytraining\.scss}line{font-family:\000035}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/mytraining\.scss}line{font-family:\000035}}
 .main-violet {
   color: #6654D9; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/mytraining\.scss}line{font-family:\0000311}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/mytraining\.scss}line{font-family:\0000311}}
 main .training__block .helper__block {
-  background-color: #f4f5fa;
-  padding: 10px 0; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/mytraining\.scss}line{font-family:\0000316}}
+  background-color: #f4f5fa; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/mytraining\.scss}line{font-family:\0000316}}
 main .training__block .info__block p {
   color: rgba(80, 102, 123, 0.5); }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/mytraining\.scss}line{font-family:\0000320}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/mytraining\.scss}line{font-family:\0000320}}
 main .training__block .gu__cards {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
@@ -19,7 +18,7 @@ main .training__block .gu__cards {
           justify-content: center;
   gap: 20px;
   grid-auto-flow: dense; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/mytraining\.scss}line{font-family:\0000328}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/mytraining\.scss}line{font-family:\0000328}}
   main .training__block .gu__cards .gu__card {
     background-image: linear-gradient(153.43deg, #4d3bf9, #646b5c 83.33%);
     position: relative;
@@ -39,63 +38,67 @@ main .training__block .gu__cards {
     border-radius: 5px;
     opacity: .9;
     cursor: pointer; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/mytraining\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/mytraining\.scss}line{font-family:\0000340}}
     main .training__block .gu__cards .gu__card:hover {
       opacity: 1; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/mytraining\.scss}line{font-family:\0000343}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/mytraining\.scss}line{font-family:\0000343}}
     main .training__block .gu__cards .gu__card img {
       width: 50px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/mytraining\.scss}line{font-family:\0000346}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/mytraining\.scss}line{font-family:\0000346}}
     main .training__block .gu__cards .gu__card .card__title {
       font-size: 24px;
       line-height: 1em; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/mytraining\.scss}line{font-family:\0000350}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/mytraining\.scss}line{font-family:\0000350}}
     main .training__block .gu__cards .gu__card p {
       color: white;
       white-space: nowrap; }
 @media screen and (max-width: 1200px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/mytraining\.scss}line{font-family:\0000357}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/mytraining\.scss}line{font-family:\0000357}}
   main .training__block .gu__cards {
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: 1fr; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/mytraining\.scss}line{font-family:\0000360}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/mytraining\.scss}line{font-family:\0000360}}
     main .training__block .gu__cards .gu__card {
       height: 150px !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/mytraining\.scss}line{font-family:\0000362}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/mytraining\.scss}line{font-family:\0000362}}
       main .training__block .gu__cards .gu__card .card__title {
         font-size: 20px; } }
 @media screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/mytraining\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/mytraining\.scss}line{font-family:\0000370}}
   main .training__block .gu__cards {
     grid-template-columns: repeat(1, 1fr);
     grid-template-rows: 1fr; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/mytraining\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/mytraining\.scss}line{font-family:\0000373}}
     main .training__block .gu__cards .gu__card {
       height: 150px !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/mytraining\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/mytraining\.scss}line{font-family:\0000375}}
       main .training__block .gu__cards .gu__card .card__title {
         font-size: 20px; } }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/mytraining\.scss}line{font-family:\0000384}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/mytraining\.scss}line{font-family:\0000384}}
 main .training__block .training__helper .helper-img {
   height: 100px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/mytraining\.scss}line{font-family:\0000387}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/mytraining\.scss}line{font-family:\0000387}}
 main .training__block .training__helper span {
   background-color: white;
   padding: 8px 16px;
   border-radius: 20px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/mytraining\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/mytraining\.scss}line{font-family:\0000394}}
 main .training__block .training__helper form input {
   padding: 8px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/mytraining\.scss}line{font-family:\0000399}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/mytraining\.scss}line{font-family:\0000399}}
 main .training__block .training__helper form button {
   background-color: #6654D9;
   padding: 8px 30px;
   color: white;
   white-space: nowrap; }
 @media screen and (max-width: 1024px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/mytraining\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/mytraining\.scss}line{font-family:\00003107}}
   main .training__block .training__helper form,
   main .training__block .training__helper input {
-    width: 100%; } }
+    width: 100%; }
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/mytraining\.scss}line{font-family:\00003112}}
+  main .training__block .training__helper .btn {
+    width: 50%;
+    margin: 0 auto; } }
 
 /*# sourceMappingURL=mytraining.css.map */

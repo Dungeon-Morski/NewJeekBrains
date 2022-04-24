@@ -1,0 +1,120 @@
+$main-black:#19191A;
+$meat-white:rgb(250, 250, 250);
+$meat-text:rgb(80, 79, 79);
+$main-violet:#6654D9;
+$main-green:#26e0a4;
+.main-violet {
+	color: $main-violet;
+}
+
+
+.order__block {
+    background-color: black;
+    .order__items {
+        display: flex;
+        justify-content: space-between;
+        gap:20px;
+        color:white;
+        padding: 30px 0;
+        .order__info {
+
+            h1 {
+                font-size: 32px;
+                line-height: 1em;
+                margin-bottom: 10px;
+            }
+            p {
+                max-width: 500px;
+                font-size: 18px;
+            }
+            .garant {
+                background-color: $main-violet;
+                position: relative;
+                padding: 25px 100px 26px 20px;
+                border-radius: 15px;
+                background-image: url('../images/faculty/1.svg') ;
+                background-repeat: no-repeat;
+                background-position: right bottom;
+                background-size: contain;
+                h3 {
+                    font-size: 24px;
+                }
+            }
+        }
+        @media screen  and (max-width:500px){
+            .order__form  {
+                width: 100%;
+            }
+        }
+        .order__form {
+            background-color: #f4f5fa;
+            border-radius: 15px;
+            .form__items {
+               
+                p {
+                    color:black;
+                 }
+                 .form-title {
+                     font-size: 26px;
+                     text-align: center;
+                 }
+                 .start-date {
+                    color:rgba(80,102,123,.5);
+                    span {
+                        color:black;
+                    }
+                 }
+                 form {
+                    display: flex;
+                    flex-direction: column;
+                    button {
+                       background-color: $main-green;
+                      
+                       margin:28px 0;
+                       padding:17px 0;
+                       border-radius: 44px;
+                       &:hover {
+                           background-color: #19966e;
+                       }
+                    }
+                    select,
+                    input {
+                        padding: 15px 0;
+                        border-bottom: 1px solid silver;
+                        background-color: transparent;
+                        outline: none;
+                        color:black;
+                        font-weight: bold;
+                    }
+                    select{
+                        color:black;
+                        width: 100%;
+                        padding:10px 0;
+                        
+                       font-size: 18px;
+                        
+                        
+                    }
+                 }
+                
+            }
+           
+        }
+    }
+    .order-time {
+        color:white;
+
+        padding-bottom: 40px;
+        .t_item {
+            display: flex;
+            flex-direction: column;
+            gap:15px;
+            max-width: 150px;
+            .t-title {
+                color:silver;
+                white-space: nowrap;
+            }
+        }
+    }
+    
+}

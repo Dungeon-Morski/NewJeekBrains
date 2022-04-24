@@ -1,9 +1,9 @@
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/programming\.scss}line{font-family:\000031}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/programming\.scss}line{font-family:\000031}}
 .pr_title {
   font-size: 48px;
   line-height: 1em; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/programming\.scss}line{font-family:\000037}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/programming\.scss}line{font-family:\000037}}
 .pr__search input {
   outline: none;
   border: none;
@@ -11,7 +11,7 @@
   width: 100%;
   background-color: #eff0f5;
   border-radius: 5px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/programming\.scss}line{font-family:\0000315}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/programming\.scss}line{font-family:\0000315}}
 .pr__search button {
   background-color: #5466c2;
   padding: 10px;
@@ -19,27 +19,27 @@
   border-radius: 0 5px 5px 0;
   color: white; }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/programming\.scss}line{font-family:\0000325}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/programming\.scss}line{font-family:\0000325}}
 .training__block .training__filter {
   max-width: -webkit-max-content;
   max-width: -moz-max-content;
   max-width: max-content;
   min-width: 250px;
   width: 100%; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/programming\.scss}line{font-family:\0000329}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/programming\.scss}line{font-family:\0000329}}
   .training__block .training__filter .filter {
     border-bottom: 1px solid silver;
     padding-bottom: 16px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/programming\.scss}line{font-family:\0000334}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/programming\.scss}line{font-family:\0000334}}
   .training__block .training__filter .s .lvl-text {
     font-size: 16px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/programming\.scss}line{font-family:\0000337}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/programming\.scss}line{font-family:\0000337}}
   .training__block .training__filter .s .custom-checkbox + label::before {
     margin-top: 0px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/programming\.scss}line{font-family:\0000341}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/programming\.scss}line{font-family:\0000341}}
   .training__block .training__filter .filter__title {
     font-size: 18px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/programming\.scss}line{font-family:\0000345}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/programming\.scss}line{font-family:\0000345}}
 .training__block .training__programs {
   width: 100%;
   display: grid;
@@ -48,10 +48,10 @@
   grid-auto-flow: dense;
   gap: 20px; }
 @media screen and (max-width: 768px) {
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/programming\.scss}line{font-family:\0000355}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/programming\.scss}line{font-family:\0000355}}
   .training__block .training__programs {
     grid-template-columns: repeat(1, 1fr); } }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/programming\.scss}line{font-family:\0000359}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/programming\.scss}line{font-family:\0000359}}
 .training__block .programs__card {
   -webkit-box-shadow: 6px 6px 20px 4px rgba(55, 84, 170, 0.1);
           box-shadow: 6px 6px 20px 4px rgba(55, 84, 170, 0.1);
@@ -59,31 +59,31 @@
   min-width: 350px;
   cursor: pointer;
   border-radius: 12px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/programming\.scss}line{font-family:\0000367}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/programming\.scss}line{font-family:\0000367}}
   .training__block .programs__card:hover {
     -webkit-box-shadow: 8px 8px 25px 8px rgba(55, 84, 170, 0.1);
             box-shadow: 8px 8px 25px 8px rgba(55, 84, 170, 0.1); }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/programming\.scss}line{font-family:\0000370}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/programming\.scss}line{font-family:\0000370}}
   .training__block .programs__card h3 {
     font-size: 22px !important; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/programming\.scss}line{font-family:\0000373}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/programming\.scss}line{font-family:\0000373}}
   .training__block .programs__card .card-desc {
     color: #1f222e !important;
     font-size: 14px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/programming\.scss}line{font-family:\0000377}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/programming\.scss}line{font-family:\0000377}}
   .training__block .programs__card .font-bold {
     font-size: 14px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/programming\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/programming\.scss}line{font-family:\0000381}}
   .training__block .programs__card .t .card_t {
     font-size: 12px; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/programming\.scss}line{font-family:\0000383}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/programming\.scss}line{font-family:\0000383}}
     .training__block .programs__card .t .card_t .fakultet {
       background-color: #eff0f5; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/programming\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/programming\.scss}line{font-family:\0000386}}
     .training__block .programs__card .t .card_t .whitespace-nowrap {
       background-color: #edfcf7;
       color: #10af7c; }
-@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v7\/styles\/programming\.scss}line{font-family:\0000390}}
+@media -sass-debug-info{filename{font-family:file\:\/\/H\:\/jeetbrains\/v9\/styles\/programming\.scss}line{font-family:\0000390}}
     .training__block .programs__card .t .card_t p {
       padding: 6px 8px;
       border-radius: 4px; }

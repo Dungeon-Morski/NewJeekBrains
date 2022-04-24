@@ -10,7 +10,7 @@ main {
     .training__block {
         .helper__block    {
             background-color: #f4f5fa;
-            padding:10px 0;
+            
         }
         .info__block     {
             p{
@@ -108,6 +108,10 @@ main {
                 input {
                     width: 100%;
                    
+                }
+                .btn {
+                    width: 50%;
+                    margin:0 auto;
                 }
             }
          }
